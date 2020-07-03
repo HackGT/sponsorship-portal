@@ -1,0 +1,28 @@
+{
+  "name": "sponsorship-portal",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-shell": "^0.8.0"
+  },
+  "scripts": {
+    "postinstall": "gulp postinstall",
+    "start": "gulp",
+    "install-dependencies": "gulp dependencies",
+    "serve": "node ./server/build/app.js",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackGT/sponsorship-portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackGT/sponsorship-portal/issues"
+  },
+  "homepage": "https://github.com/HackGT/sponsorship-portal#readme"
+}
