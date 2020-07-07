@@ -87,5 +87,5 @@ app.get("*", (request, response) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Prizes system v${VERSION_NUMBER} started on port ${PORT}`);
+    console.log(`Sponsorship Portal system v${VERSION_NUMBER} started on port ${PORT}`);
 });
